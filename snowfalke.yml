@@ -1,0 +1,7 @@
+definition_version: "1.1"
+streamlit:
+  name: PARTNER_INPUT_STREAMLIT_APP
+  stage: streamlit_stg
+  query_warehouse: COMPUTE_WH
+  main_file: PARTNER_INPUT_STREAMLIT_APP.py
+  env_file: environment.yml
